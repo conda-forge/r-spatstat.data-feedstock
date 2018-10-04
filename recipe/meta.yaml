@@ -1,4 +1,4 @@
-{% set version = "1.3-1" %}
+{% set version = "1.4-0" %}
 
 package:
   name: r-spatstat.data
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/spatstat.data_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/spatstat.data/spatstat.data_{{ version }}.tar.gz
-  sha256: c3ad35677c78aa04e6fb1927aa15abd21ff1fdac58a8b365ce54bc93034b8b8f
+  sha256: 121e5bb92beb7ccac920f921e760f429fd71bcfe11cb9b07a7e7326c7a72ec8c
 
 build:
   number: 0

@@ -10,7 +10,9 @@ pin_run_as_build:
   r-base:
     max_pin: x.x.x
 r_base:
-- 3.4.1
+- 3.5.1
+target_platform:
+- linux-64
 zip_keys:
 - - channel_sources
   - channel_targets

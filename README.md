@@ -5,11 +5,9 @@ Home: http://www.spatstat.org
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spatstat.data-feedstock/blob/master/LICENSE.txt)
 
 Summary: Contains all the datasets for the 'spatstat' package.
-
-
 
 Current build status
 ====================

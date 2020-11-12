@@ -39,7 +39,7 @@ test:
 
 about:
   home: http://www.spatstat.org
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: Contains all the datasets for the 'spatstat' package.
   license_family: GPL2
   license_file:

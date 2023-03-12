@@ -1,11 +1,11 @@
-About r-spatstat.data
-=====================
+About r-spatstat.data-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spatstat.data-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.spatstat.org
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-spatstat.data-feedstock/blob/main/LICENSE.txt)
 
 Summary: Contains all the datasets for the 'spatstat' package.
 

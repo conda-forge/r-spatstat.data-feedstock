@@ -12,7 +12,7 @@ source:
   sha256: 161275890ade72c1dc5beac6c5a0215da04ea02357dc85bcb898793f336951f0
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -24,11 +24,11 @@ requirements:
   host:
     - r-base
     - r-matrix
-    - r-spatstat.utils >=3.0_2
+    - r-spatstat.utils >=3.0_5
   run:
     - r-base
     - r-matrix
-    - r-spatstat.utils >=3.0_2
+    - r-spatstat.utils >=3.0_5
 
 test:
   commands:
@@ -37,9 +37,10 @@ test:
 
 about:
   home: http://www.spatstat.org
+  dev_url: https://github.com/spatstat/spatstat.data
   license: GPL-2.0-or-later
-  summary: Contains all the datasets for the 'spatstat' package.
-  license_family: GPL2
+  summary: Contains all the datasets for the 'spatstat' family of packages.
+  license_family: GPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3

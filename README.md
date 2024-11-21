@@ -7,7 +7,9 @@ Home: http://www.spatstat.org
 
 Package license: GPL-2.0-or-later
 
-Summary: Contains all the datasets for the 'spatstat' package.
+Summary: Contains all the datasets for the 'spatstat' family of packages.
+
+Development: https://github.com/spatstat/spatstat.data
 
 Current build status
 ====================

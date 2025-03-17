@@ -24,11 +24,11 @@ requirements:
   host:
     - r-base
     - r-matrix
-    - r-spatstat.utils >=3.0_5
+    - r-spatstat.utils >=3.1_2
   run:
     - r-base
     - r-matrix
-    - r-spatstat.utils >=3.0_5
+    - r-spatstat.utils >=3.1_2
 
 test:
   commands:

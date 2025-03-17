@@ -1,4 +1,4 @@
-{% set version = "3.1-4" %}
+{% set version = "3.1-6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/spatstat.data_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/spatstat.data/spatstat.data_{{ version }}.tar.gz
-  sha256: 161275890ade72c1dc5beac6c5a0215da04ea02357dc85bcb898793f336951f0
+  sha256: ffb0e37c27bdcced84416bf6dc5dfcf8a26bd555200cff1194bf6d0f407294de
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -24,11 +24,11 @@ requirements:
   host:
     - r-base
     - r-matrix
-    - r-spatstat.utils >=3.0_5
+    - r-spatstat.utils >=3.1_2
   run:
     - r-base
     - r-matrix
-    - r-spatstat.utils >=3.0_5
+    - r-spatstat.utils >=3.1_2
 
 test:
   commands:
